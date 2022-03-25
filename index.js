@@ -1,22 +1,12 @@
 
- 
-for (let i= 0; i < 5; i++) {
-
-    document.querySelectorAll(".buttons2")[i].addEventListener("click", function(){
-
-        this.classList.add("samsak");  })
-       
-}
-
- 
-
-
 
 document.querySelector(".submit").addEventListener("click", function (){
 
-   var ratingNum = document.querySelector(".samsak").innerHTML  
+    var  checked = $("input:checked").attr("value");
+
+    console.log(checked);
    
-   document.querySelector("p").innerHTML = "You selected "+ratingNum+" out of 5";
+   document.querySelector("p").innerHTML = "You selected "+checked+" out of 5";
 
    $("p").after("<h2 class='thank'>Thank you!</h2>")
    $("p").before("<div class='img1'><img  src='images/illustration-thank-you.svg'/></div>")

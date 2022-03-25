@@ -17,7 +17,7 @@
 <body>
 
 
-  <div class="rate col-sm-8 col-md-6 col-lg-2">
+  <div class="rate col-sm-8 col-md-6 col-lg-3">
     <img  class="star" src="images/icon-star.svg" alt="">
     <br>
     <br>
@@ -25,12 +25,22 @@
     <p> Please let us know how we did with your support request. All feedback is appreciated
       to help us improve our offering!</p>
     <div>
-      <div class="buttons">
-        <button class="btn btn-secondary buttons2">1</button>
-        <button class="btn btn-secondary buttons2">2</button>
-        <button class="btn btn-secondary buttons2">3</button>
-        <button class="btn btn-secondary buttons2">4</button>
-        <button class="btn btn-secondary buttons2">5</button>
+      <div class="buttons radio-toolbar">
+        <input type="radio" name="rating" id="input1" value="1" >
+        <label for="input1">1</label>
+
+        <input type="radio" name="rating" id="input2" value="2" >
+        <label for="input2">2</label>
+
+        <input type="radio" name="rating" id="input3" value="3" >
+        <label for="input3">3</label>
+
+        <input type="radio" name="rating" id="input4" value="4" >
+        <label for="input4">4</label>
+
+        <input type="radio" name="rating" id="input5" value="5" >
+        <label for="input5">5</label>
+
       </div>
       <div>
         <button class="btn btn-warning submit">Submit</button>
