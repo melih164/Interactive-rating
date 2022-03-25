@@ -1,0 +1,61 @@
+body {
+background-color: rgb(34, 31, 31);
+}
+
+.rate {
+    margin: 13% auto auto auto;
+    width: 20%;
+    padding: 10px;
+    background-color: rgb(65, 65, 71);
+    border-radius: 15px;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(129, 120, 120);
+    color: white;
+    text-align: center;
+
+}
+
+.submit {
+width: 90%;
+margin: auto 4% auto 4%;
+border-radius: 20px;
+}
+
+.buttons {
+    width: 100%;
+   
+}
+
+.buttons2 {
+    width: 16%;
+    margin: auto auto 3% 2%;
+    border-radius: 50px;
+    border: none;
+}
+
+h3 {
+color: white;
+
+}
+
+p {
+color: rgb(184, 179, 179);
+}
+
+.thank {
+
+text-align: center;
+
+}
+
+.img1 {
+
+    display: flex;
+    justify-content: center;
+}
