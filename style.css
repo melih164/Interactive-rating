@@ -27,6 +27,10 @@ margin: auto 4% auto 4%;
 border-radius: 20px;
 }
 
+.submit:hover {
+    background-color: white;
+  }
+
 .buttons {
     width: 100%;
    
@@ -51,11 +55,28 @@ color: rgb(184, 179, 179);
 .thank {
 
 text-align: center;
+color: white;
 
 }
+
+.secpara {
+
+    text-align: center;
+    
+    }
 
 .img1 {
 
     display: flex;
     justify-content: center;
+}
+
+.samsak {
+    background-color: orange;
+}
+
+.star {
+    background-color: rgb(100, 99, 99);
+    padding: 10px;
+    border-radius: 50%;
 }

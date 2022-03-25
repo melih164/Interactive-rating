@@ -21,8 +21,8 @@ document.querySelector(".submit").addEventListener("click", function (){
    $("p").after("<h2 class='thank'>Thank you!</h2>")
    $("p").before("<div class='img1'><img  src='images/illustration-thank-you.svg'/></div>")
    $("h3, .buttons, .submit, .star").remove();
-   $("h2").after("<p class='thank'>We appreciate you taking the time to give a rating. If you ever need more support,don’t hesitate to get in touch!</p>")
+   $("h2").after("<p class='secpara'>We appreciate you taking the time to give a rating. If you ever need more support,don’t hesitate to get in touch!</p>")
    
-   $("p").addClass("thank");
+   $("p").addClass("secpara");
    
 });
