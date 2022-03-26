@@ -1,11 +1,17 @@
 body {
 background-color: rgb(34, 31, 31);
+
+}
+
+.flex-container {
+display: flex;
+justify-content: center;
+min-height: 100vh;
+align-items:center;
 }
 
 .rate {
-    margin: 13% auto auto auto;
-    
-    padding: 10px;
+    padding: 2% 3.5% 2% 3.5%;
     background-color: rgb(65, 65, 71);
     border-radius: 15px;
 }
@@ -23,24 +29,19 @@ footer {
 
 .submit {
 width: 90%;
-margin: auto 4% auto 4%;
+margin: auto 4% 2% auto;
 border-radius: 20px;
 }
 
 .submit:hover {
     background-color: white;
+    transition:background-color 1s;
   }
 
 .buttons {
     width: 100%;
+    
    
-}
-
-.buttons2 {
-    width: 16%;
-    margin: auto auto 3% 2%;
-    border-radius: 50px;
-    border: none;
 }
 
 h3 {
@@ -75,6 +76,7 @@ color: white;
     background-color: rgb(100, 99, 99);
     padding: 10px;
     border-radius: 50%;
+    margin-bottom: 6%;
 }
 
 .radio-toolbar input[type="radio"] {
@@ -90,7 +92,7 @@ color: white;
     font-size: 16px;
     cursor: pointer;
     border-radius: 50%;
-    margin: auto auto 5% 3%;
+    margin: auto 3% 5% auto;
     color: white;
   }
 
